@@ -4,7 +4,7 @@ Chai assertions for phantomjs scripts
 
 ## Usage
 
-npm install phantom-chai chai --save-dev
+`npm install phantom-chai chai --save-dev`
 
 
 ## Usage in phantomjs script

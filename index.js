@@ -30,11 +30,12 @@ function makeChai(opts) {
                 console.log(e);
                 console.log(e.stack);
                 opts.teardown();
+                throw e;
             }
         };
     }
 
     function teardown() {
-        phantom.exit(1);
+        if (opts.exit) phantom.exit(1);
     }
 }

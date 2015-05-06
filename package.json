@@ -1,6 +1,6 @@
 {
   "name": "phantom-chai",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Chai assertions for phantomjs scripts",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,10 @@
   "keywords": [
     "phantom",
     "phantomjs",
+    "assert",
     "assertion",
     "test",
+    "testing",
     "chai"
   ],
   "author": "Evgeny Poberezkin",
